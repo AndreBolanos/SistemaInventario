@@ -19,7 +19,7 @@ Guatemala, 2020.
 - ### [Módulo de Reportes y Análisis de Datos](#Reportes-y-Análisis-de-Datos)
 - ### [Módulo de Notificaciones](#Notificaciones)
 
-
+<div style="text-align: justify">
 
 ## Inicio de Sessión
 
@@ -61,4 +61,4 @@ Esta sección del sistema permite revisar y acceder registros históricos de los
 
 ## Notificaciones
 
-
+</div>
