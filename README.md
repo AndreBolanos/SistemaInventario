@@ -19,7 +19,7 @@ Guatemala, 2020.
 - ### [Módulo de Reportes y Análisis de Datos](#Reportes-y-Análisis-de-Datos)
 - ### [Módulo de Notificaciones](#Notificaciones)
 
-
+<div style="text-align:justify">
 
 ## Inicio de Sessión
 
@@ -61,7 +61,7 @@ También facilita monitorear las transacciones que ocurren en la empresa referen
 
 ## Registro Histórico
 
-Esta sección del sistema permite revisar y acceder registros históricos de los artículos que pertenecen o pertenecían al Inventario, de esta forma es posible monitorea los cambios realizados en el Inventario y consultar informacion previa del estado del mismo, efectivo para un control de Auditoria Interna.
+Esta sección del sistema permite revisar y acceder registros históricos de los artículos que pertenecen o pertenecían al Inventario, de esta forma es posible monitorear los cambios realizados en el Inventario y consultar información previa del estado del mismo, efectivo para un control de Auditoria Interna.
 
 ## Reportes y Análisis de Datos
 
@@ -70,3 +70,4 @@ Esta sección del sistema permite revisar y acceder registros históricos de los
 ## Notificaciones
 
 
+</div>
