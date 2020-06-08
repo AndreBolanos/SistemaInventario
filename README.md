@@ -1,6 +1,6 @@
 # Sistema de Inventario
 
-Sistema de Inventario V.1
+### Sistema de Inventario V.1
 >Desarrollado por Ing. André Salvador Bolaños Aldana  
 Guatemala, 2020.
 
@@ -65,9 +65,11 @@ Esta sección del sistema permite revisar y acceder registros históricos de los
 
 ## Reportes y Análisis de Datos
 
-
+El sistema proporciona un modulo para la creación de reportes en relación a los datos contenidos en el Inventario, esto con el objetivo de facilitar el análisis de datos y detectar tendencias estadísticas según la data procesada.
 
 ## Notificaciones
+
+Una función que permite alertar o informar al usuario(s) de cierta información relevante de acuerdo a las operaciones o dirección de la empresa, también permite que el usuario reciba notificación realizadas por el mismo sistema al realizar transacciones en ella.
 
 
 </div>
