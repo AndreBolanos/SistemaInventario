@@ -19,7 +19,7 @@ Guatemala, 2020.
 - ### [Módulo de Reportes y Análisis de Datos](#Reportes-y-Análisis-de-Datos)
 - ### [Módulo de Notificaciones](#Notificaciones)
 
-<div style="text-align: justify">
+
 
 ## Inicio de Sessión
 
@@ -49,11 +49,19 @@ También facilita monitorear las transacciones que ocurren en la empresa referen
 
 - ### Actualización de Inventario
 
+    Este componente permite actualizar los datos del Inventario para mantener la base de datos actualizada y en orden, cambios en los atributos de un articulo, su estado, quien lo porta, etc.
 
+- ### Eliminación de Inventario
+
+    Como su nombre lo indica, esta función maneja la acción de eliminación de artículos o elementos del Inventario, guarda un registro de dicha acción y de ser necesario según la solicitud de la empresa puede solicitar previa autorización para hacerlo.
+
+- ### Despliegue de Inventario
+
+    Acción que permite mostrar en pantalla una vista de lo que se encuentra almacenado en Inventario, el usuario podrá configurar la vista de los elementos según su preferencia o criterio.
 
 ## Registro Histórico
 
-Esta sección del sistema permite revisar y acceder registros históricos de los artículos que pertenecen o pertenecían al Inventario. 
+Esta sección del sistema permite revisar y acceder registros históricos de los artículos que pertenecen o pertenecían al Inventario, de esta forma es posible monitorea los cambios realizados en el Inventario y consultar informacion previa del estado del mismo, efectivo para un control de Auditoria Interna.
 
 ## Reportes y Análisis de Datos
 
@@ -61,4 +69,4 @@ Esta sección del sistema permite revisar y acceder registros históricos de los
 
 ## Notificaciones
 
-</div>
+
