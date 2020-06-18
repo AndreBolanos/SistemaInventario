@@ -10958,8 +10958,22 @@ body {
 
 .btn-info {
   color: #fff;
-  background-color: #4aa0e6;
-  border-color: #3f9ae5;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.btn-info:not(:disabled):not(.disabled):active,
+.btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #138496;
+  border-color: #138496;
 }
 
 .form-signin {
@@ -11096,6 +11110,13 @@ footer {
     text-align: center;
   }
 
+  h3 {
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+  }
+
   .h2,
   h2 {
     font-size: 1.8em;
@@ -11127,7 +11148,8 @@ footer {
     border-left: none;
   }
 
-  h1 {
+  h1,
+  h3 {
     font-size: 1.8em;
     font-weight: 300;
     line-height: 1.2;
