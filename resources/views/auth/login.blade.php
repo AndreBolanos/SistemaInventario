@@ -15,7 +15,7 @@
   <body>
     <div class="main-container">
         <div class="jumbotron form-signin">
-          <h1 class="row justify-content-center" style="font-family:bookman;font-weight:400;text-shadow: 2px 2px rgb(73, 8, 8)">Bienvenido a Sistema de Inventario V.1</h1>
+          <h1 class="row justify-content-center" style="font-family:bookman, Times New Roman;font-weight:400;text-shadow: 2px 2px rgb(73, 8, 8)">Bienvenido a Sistema de Inventario V.1</h1>
           <h3 class="row justify-content-center" style="font-family:bookman;font-weight:400;text-shadow: 2px 2px rgb(73, 8, 8)">Sistemas Profesionales de Seguridad</h3>
           <br>
           <p class="lead">El Sistema le permitira realizar consultas del Inventario de la empresa, asi como monitorear las transacciones que en ella se realicen.</p>
