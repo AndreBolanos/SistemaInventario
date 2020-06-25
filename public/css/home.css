@@ -10989,6 +10989,10 @@ ul {
 
 #main {
   transition: margin-left 0.5s;
+}
+
+#content {
+  transition: margin-left 0.5s;
   padding: 16px;
 }
 

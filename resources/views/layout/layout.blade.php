@@ -58,8 +58,10 @@
           </form>
         </div>
       </nav>
-
-    @yield('content')
+    <div id="content">
+      @yield('content')
+    </div>
+    
 </div>
 
 <script>
