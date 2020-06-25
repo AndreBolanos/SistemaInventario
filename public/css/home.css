@@ -10933,8 +10933,13 @@ body {
 }
 
 ul {
-  -webkit-padding-start: 10px;
-          padding-inline-start: 10px;
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+  list-style-type: none;
+}
+
+.sidenav li {
+  margin-bottom: 10px;
 }
 
 .sidenav {
@@ -10966,7 +10971,7 @@ ul {
 
 .menuO:hover {
   border-left-style: solid;
-  border-width: 12px;
+  border-width: 10px;
   border-color: #f1f1f1;
 }
 
