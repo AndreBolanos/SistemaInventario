@@ -79,8 +79,17 @@ function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("main").style.marginLeft = "265px";
   if($(window).width() <= 480){
-    document.getElementById("mySidenav").style.width = "100%";
-    document.getElementById("main").style.display = "none";
+    
+
+    function menu(subject, callback) {
+      document.getElementById("mySidenav").style.width = "100%";
+      callback();
+    }
+    
+    menu('hide', function() {
+      setTimeout(function(){ document.getElementById("main").style.display = "none"; }, 300);
+      
+    });
     
   }
   
