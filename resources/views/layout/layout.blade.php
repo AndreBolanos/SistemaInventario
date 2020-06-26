@@ -87,7 +87,7 @@ function openNav() {
     }
     
     menu('hide', function() {
-      setTimeout(function(){ document.getElementById("main").style.display = "none"; }, 300);
+      setTimeout(function(){ document.getElementById("main").style.display = "none"; }, 500);
       
     });
     
