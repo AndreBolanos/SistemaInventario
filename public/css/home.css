@@ -10991,9 +10991,10 @@ ul {
   transition: margin-left 0.5s;
 }
 
-span {
+#content span {
   font-size: 30px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 #content {
@@ -11018,6 +11019,7 @@ span {
 
   #content span {
     font-size: 18px;
+    margin-bottom: 10px;
   }
 }
 
