@@ -10991,6 +10991,11 @@ ul {
   transition: margin-left 0.5s;
 }
 
+span {
+  font-size: 30px;
+  cursor: pointer;
+}
+
 #content {
   transition: margin-left 0.5s;
   padding: 16px;
@@ -11011,7 +11016,7 @@ ul {
     right: 50px;
   }
 
-  #content p {
+  #content span {
     font-size: 18px;
   }
 }
