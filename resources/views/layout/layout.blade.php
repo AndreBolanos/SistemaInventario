@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ mix('css/home.css') }}">
+    <script src="https://kit.fontawesome.com/48be5f5ef0.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body class="container-fluid" style="padding-left: 0px;padding-right: 0px;">
 
 <div id="mySidenav" class="sidenav">
+  <div class="row">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+</div>
+  <div class="row mx-auto justify-content-center" style="height: 200px;width:100%;line-height: 0;">
+    <span style="font-size: 175px; color: whitesmoke;">
+      <i class="fas fa-user-circle"></i>
+    </span>
+  </div>
+  <h4 style="color: whitesmoke; margin-left:10px;">Menu</h4>
+  <hr style="background-color: whitesmoke;margin-top:0px;">
     <ul>
-    <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
     <li><a class="menuO" href="#">About</a></li>
     <li><a class="menuO" href="#">Services</a>
     <li><a class="menuO" href="#">Clients</a>
@@ -67,9 +77,10 @@
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("main").style.marginLeft = "265px";
   if($(window).width() <= 480){
     document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("main").style.marginLeft = "65%";
     
   }
   
