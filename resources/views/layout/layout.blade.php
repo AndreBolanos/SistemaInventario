@@ -80,7 +80,7 @@ function openNav() {
   document.getElementById("main").style.marginLeft = "265px";
   if($(window).width() <= 480){
     document.getElementById("mySidenav").style.width = "100%";
-    document.getElementById("main").style.marginLeft = "58%";
+    document.getElementById("main").style.display = "none";
     
   }
   
@@ -89,6 +89,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("main").style.display = "inline";
 }
 </script>
 <script src="{{ mix('js/app.js') }}"></script>
