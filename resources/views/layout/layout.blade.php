@@ -80,7 +80,7 @@ function openNav() {
   document.getElementById("main").style.marginLeft = "265px";
   if($(window).width() <= 480){
     document.getElementById("mySidenav").style.width = "100%";
-    document.getElementById("main").style.marginLeft = "65%";
+    document.getElementById("main").style.marginLeft = "58%";
     
   }
   
