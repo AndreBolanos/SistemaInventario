@@ -10935,6 +10935,8 @@ body {
 ul {
   -webkit-padding-start: 15px;
           padding-inline-start: 15px;
+  -webkit-padding-end: 15px;
+          padding-inline-end: 15px;
   list-style-type: none;
 }
 
@@ -10971,8 +10973,9 @@ ul {
 
 .menuO:hover {
   border-left-style: solid;
-  border-width: 10px;
+  border-width: 5px;
   border-color: #f1f1f1;
+  background-color: #4F4F4F;
 }
 
 .sidenav a:hover {
@@ -11002,6 +11005,17 @@ ul {
   padding: 16px;
 }
 
+#userI {
+  font-size: 175px;
+  color: whitesmoke;
+}
+
+#userC {
+  height: 200px;
+  width: 100%;
+  line-height: 0;
+}
+
 /* Media queries */
 
 @media only screen and (max-device-width: 480px) and (orientation: portrait) {
@@ -11020,6 +11034,14 @@ ul {
   #content span {
     font-size: 18px;
     margin-bottom: 10px;
+  }
+
+  #userI {
+    font-size: 100px;
+  }
+
+  #userC {
+    height: 125px;
   }
 }
 
