@@ -98,7 +98,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
-  document.getElementById("main").style.display = "inline";
+  document.getElementById("main").style.display = "block";
 }
 </script>
 <script src="{{ mix('js/app.js') }}"></script>
