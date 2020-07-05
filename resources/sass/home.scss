@@ -8,13 +8,39 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    font-family: "Lato", sans-serif;
+    /*font-family: "Lato", sans-serif;*/
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
 }
 
 ul {
     padding-inline-start: 15px;
     padding-inline-end: 15px;
     list-style-type: none;
+}
+
+.animateHide {
+  position: relative;
+  animation-name: hideMenu;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideMenu {
+  0%   {left: 0px;}
+  100% {left: -200px;}
+}
+
+.animateShow {
+  position: relative;
+  animation-name: showMenu;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showMenu {
+  0%   {left: -200px;}
+  100% {left: 0px;}
 }
 
 #navbarE {

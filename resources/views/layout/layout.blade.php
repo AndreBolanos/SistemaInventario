@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,maximum-scale=1.0,user-scalable=no,initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ mix('css/home.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/48be5f5ef0.js" crossorigin="anonymous"></script>
 
 </head>
@@ -78,6 +79,7 @@
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("main").style.marginLeft = "265px";
+  document.getElementById("menuB").className = "animateHide";
   if($(window).width() <= 480){
     
 
@@ -99,6 +101,7 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
   document.getElementById("main").style.display = "block";
+  document.getElementById("menuB").className = "animateShow";
 }
 </script>
 <script src="{{ mix('js/app.js') }}"></script>
