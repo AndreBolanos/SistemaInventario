@@ -10,8 +10,8 @@
     </h4>
   </span>
 </div>
-<h2>Sidenav Push Example</h2>
-  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+<h2>Resumen de Inventario</h2>
+  <p>Detalle resumido de los articulos exitentes en Inventario.</p>
 
 </div>
 @endsection

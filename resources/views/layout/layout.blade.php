@@ -30,8 +30,8 @@
   <h4 style="color: whitesmoke; margin-left:25px;">Menu</h4>
   <hr style="background-color: whitesmoke;margin-top:0px;margin-left:20px;margin-right:20px;">
     <ul>
-    <li><a class="menuO" href="#">About</a></li>
-    <li><a class="menuO" href="#">Services</a>
+    <li><a class="menuO" href="#">Resumen Inventario</a></li>
+    <li><a class="menuO" href="#">Detalle de Inventario</a>
     <li><a class="menuO" href="#">Clients</a>
     <li><a class="menuO" href="#">Contact</a>
     </ul>
