@@ -142,6 +142,10 @@ ul {
     margin-right: 35px;
 }
 
+.table-responsive{
+    width: 40%;
+}
+
 /* Media queries */
 
 @media only screen and (max-device-width: 480px) and (orientation: portrait) {
@@ -177,5 +181,48 @@ ul {
 }
 h4, .h4 {
     font-size: 1.1rem;
+}
+.table-responsive{
+    width: 100%;
+}
+}
+
+@media only screen and (max-device-width: 680px) 
+and (orientation: landscape) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .sidenav .closebtn {
+        right: 10px;
+    }
+    #content span {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #userI {
+        font-size: 125px;
+    }
+
+    #userC {
+        height: 130px;
+        margin-top: 15px;
+    }
+
+    #confg{
+      margin-right: 100px;
+  }
+
+  h2, .h2 {
+    font-size: 1.3rem;
+}
+h4, .h4 {
+    font-size: 1.1rem;
+}
+.table-responsive{
+    width: 100%;
 }
 }
