@@ -10946,8 +10946,8 @@ ul {
   position: relative;
   -webkit-animation-name: hideMenu;
           animation-name: hideMenu;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -10976,8 +10976,8 @@ ul {
   position: relative;
   -webkit-animation-name: showMenu;
           animation-name: showMenu;
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }

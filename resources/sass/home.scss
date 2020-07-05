@@ -22,7 +22,7 @@ ul {
 .animateHide {
   position: relative;
   animation-name: hideMenu;
-  animation-duration: 1.5s;
+  animation-duration: 1.0s;
   animation-fill-mode: forwards;
 }
 
@@ -34,7 +34,7 @@ ul {
 .animateShow {
   position: relative;
   animation-name: showMenu;
-  animation-duration: 1.2s;
+  animation-duration: .8s;
   animation-fill-mode: forwards;
 }
 
