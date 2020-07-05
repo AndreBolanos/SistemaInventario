@@ -126,13 +126,22 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        labels: ['Arma de Fuego', 'Chaleco de Seguridad', 'Linterna', 'Uniformes'],
         datasets: [{
-            label: 'My First dataset',
-            backgroundColor: 'rgb(255, 99, 132)',
+            label: 'Activo',
+            backgroundColor: 'rgb(255, 200, 132)',
             borderColor: 'rgb(255, 99, 132)',
-            data: [0, 10, 5, 2, 20, 30, 45]
-        }]
+            data: [10, 5, 2, 20],
+            
+        },
+        {
+          label: 'Inactivo',
+          backgroundColor: 'rgb(255, 99, 132)',
+          borderColor: 'rgb(255, 99, 132)',
+          data: [2, 20, 30, 45],
+          
+      }
+        ],
     },
 
     // Configuration options go here
