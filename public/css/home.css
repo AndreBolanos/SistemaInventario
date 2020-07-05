@@ -11146,7 +11146,7 @@ ul {
   }
 }
 
-@media only screen and (max-device-width: 750px) and (orientation: landscape) {
+@media only screen and (max-device-width: 850px) and (orientation: landscape) {
   .sidenav {
     padding-top: 15px;
   }
