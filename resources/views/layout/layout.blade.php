@@ -22,10 +22,11 @@
     </span>
   </div>
   <div class="row justify-content-end">
-    <span id="confg" style="margin-right: 35px;">
+    <span id="confg">
       <i class="fas fa-cog"></i>
     </span>
   </div>
+  <br>
   <h4 style="color: whitesmoke; margin-left:25px;">Menu</h4>
   <hr style="background-color: whitesmoke;margin-top:0px;margin-left:20px;margin-right:20px;">
     <ul>

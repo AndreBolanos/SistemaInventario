@@ -11091,6 +11091,7 @@ ul {
 #confg {
   font-size: 20px;
   color: whitesmoke;
+  margin-right: 35px;
 }
 
 /* Media queries */
@@ -11118,7 +11119,12 @@ ul {
   }
 
   #userC {
-    height: 150px;
+    height: 130px;
+    margin-top: 15px;
+  }
+
+  #confg {
+    margin-right: 100px;
   }
 }
 
