@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="{{ mix('css/home.css') }}">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/48be5f5ef0.js" crossorigin="anonymous"></script>
+  <script src="{{ mix('js/app.js') }}"></script>
+  
 
 </head>
 
@@ -114,8 +116,32 @@ function closeNav() {
   document.getElementById("main").style.display = "block";
   document.getElementById("menuB").className = "animateShow";
 }
+
+
+
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [0, 10, 5, 2, 20, 30, 45]
+        }]
+    },
+
+    // Configuration options go here
+    options: {responsive: true}
+});
+
   </script>
-  <script src="{{ mix('js/app.js') }}"></script>
+  
+  
 </body>
 
 </html>

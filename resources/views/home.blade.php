@@ -53,6 +53,12 @@
       </tbody>
     </table>
   </div>
+<div class="row">
+  <div class="col-12 col-md-6">
+  <canvas id="myChart"></canvas>
+  </div>
+</div>
+  
 
 </div>
 @endsection
