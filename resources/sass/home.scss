@@ -20,27 +20,35 @@ ul {
 }
 
 .animateHide {
-  position: relative;
-  animation-name: hideMenu;
-  animation-duration: 1.0s;
-  animation-fill-mode: forwards;
+    position: relative;
+    animation-name: hideMenu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes hideMenu {
-  0%   {left: 0px;}
-  100% {left: -200px;}
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: -200px;
+    }
 }
 
 .animateShow {
-  position: relative;
-  animation-name: showMenu;
-  animation-duration: .8s;
-  animation-fill-mode: forwards;
+    position: relative;
+    animation-name: showMenu;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes showMenu {
-  0%   {left: -200px;}
-  100% {left: 0px;}
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 0px;
+    }
 }
 
 #navbarE {
@@ -123,9 +131,14 @@ ul {
 }
 
 #userC {
-    height: 200px;
+    height: 170px;
     width: 100%;
     line-height: 0;
+}
+
+#confg {
+    font-size: 20px;
+    color: whitesmoke;
 }
 
 /* Media queries */

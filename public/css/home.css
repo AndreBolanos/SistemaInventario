@@ -11083,9 +11083,14 @@ ul {
 }
 
 #userC {
-  height: 200px;
+  height: 170px;
   width: 100%;
   line-height: 0;
+}
+
+#confg {
+  font-size: 20px;
+  color: whitesmoke;
 }
 
 /* Media queries */
