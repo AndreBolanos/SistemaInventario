@@ -80,7 +80,7 @@ ul {
 .sidenav a {
     padding: 8px 8px 8px 8px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #bcbcbc;
     display: block;
     transition: 0.3s;
@@ -142,8 +142,80 @@ ul {
     margin-right: 35px;
 }
 
-.table-responsive{
+.table-responsive {
     width: 40%;
+}
+
+#loader {
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #77216f;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+#myDiv {
+    display: none;
 }
 
 /*
@@ -179,23 +251,24 @@ ul {
         margin-top: 15px;
     }
 
-    #confg{
-      margin-right: 100px;
-  }
+    #confg {
+        margin-right: 100px;
+    }
 
-  h2, .h2 {
-    font-size: 1.3rem;
-}
-h4, .h4 {
-    font-size: 1.1rem;
-}
-.table-responsive{
-    width: 100%;
-}
+    h2,
+    .h2 {
+        font-size: 1.3rem;
+    }
+    h4,
+    .h4 {
+        font-size: 1.1rem;
+    }
+    .table-responsive {
+        width: 100%;
+    }
 }
 
-@media only screen and (max-device-width: 850px) 
-and (orientation: landscape) {
+@media only screen and (max-device-width: 850px) and (orientation: landscape) {
     .sidenav {
         padding-top: 15px;
     }
@@ -219,17 +292,19 @@ and (orientation: landscape) {
         margin-top: 15px;
     }
 
-    #confg{
-      margin-right: 100px;
-  }
+    #confg {
+        margin-right: 100px;
+    }
 
-  h2, .h2 {
-    font-size: 1.3rem;
-}
-h4, .h4 {
-    font-size: 1.1rem;
-}
-.table-responsive{
-    width: 100%;
-}
+    h2,
+    .h2 {
+        font-size: 1.3rem;
+    }
+    h4,
+    .h4 {
+        font-size: 1.1rem;
+    }
+    .table-responsive {
+        width: 100%;
+    }
 }
